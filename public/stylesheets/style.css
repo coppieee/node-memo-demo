@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+.memo {
+  border: 1px solid #ddd;
+  position: absolute;
+  min-width: 100px;
+}
+.memo .settings {
+  height: 20px;
+  text-align: right;
+  background-color: #ddd;
+}
+.memo .settings a {
+  display: none;
+  margin-left: 2px;
+  color: #555;
+  text-decoration: none;
+}
+.memo .text {
+  height: 100px;
+}
+.memo:hover .settings a {
+  display: inline;
+}
