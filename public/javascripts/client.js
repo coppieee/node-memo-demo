@@ -20,7 +20,7 @@ jQuery(function($) {
 	socket.on('remove',function(data){
 		removeMemo(data._id);
 	});
-	//createボタンが押された時
+	//createボタンが押された時、新規メモを作成するようにcreateイベントを送信する。
 	$('#create-button').click(function(){
 		var memoData = {
 			text:''

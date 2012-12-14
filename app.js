@@ -2,8 +2,7 @@
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
-  , path = require('path')
-  , mongoose = require('mongoose');
+  , path = require('path');
 
 var app = express();
 
@@ -27,6 +26,8 @@ app.configure('development', function(){
 app.get('/', routes.index);
 
 var server = http.createServer(app);
+
+var mongoose = require('mongoose');
 
 //localhostのnode_memo_demoのデータベースに接続。
 var db = mongoose.connect('mongodb://localhost/node_memo_demo');

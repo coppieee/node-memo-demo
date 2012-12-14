@@ -1,7 +1,7 @@
 node-memo-demo
 ==============
 
-Node.jsでMongoDB+mongoose+Socket.IOを使用した、メモWebアプリのデモ。
+Node.jsでMongoDB+Mongoose+Socket.IOを使用したメモを保存するWebアプリのデモ。
 
 ##インストール方法
 $ git clone git://github.com/coppieee/node-memo-demo.git
